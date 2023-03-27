@@ -1,0 +1,45 @@
+h3:hover{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li:first-child{
+    color: #4E342E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li:nth-child(2){
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #689F38;
+}
+
+li:last-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #EF5350;
+}
+
+p:first-child{
+    color: #999;
+}
+
+.blue{
+    color: #0277bd;
+}
+
+button{
+   
+    background: rgb(2,0,36);
+    background: linear-gradient(to right, lightblue, yellow);
+}
+
+button:hover{
+background-color: pink;
+font-size: 50px;
+color: darkred;
+}
+
+button:active{
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,44,1) 46%, rgba(255,203,0,1) 100%);
+}

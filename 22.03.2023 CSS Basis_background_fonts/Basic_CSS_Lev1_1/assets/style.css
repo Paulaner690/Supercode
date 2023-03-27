@@ -1,0 +1,12 @@
+section{
+    background-color: linen;
+}
+
+section h1{ 
+    background-color: lightblue;
+}
+
+article{
+  background: url(./photo-1678614034692-adc10a37bef1.jpeg) center;
+  background-size: contain; 
+}

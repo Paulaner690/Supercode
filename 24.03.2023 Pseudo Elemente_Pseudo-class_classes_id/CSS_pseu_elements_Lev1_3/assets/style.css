@@ -1,0 +1,59 @@
+h1::first-letter{
+    color: #00796B;
+    font-size: 3em;
+}
+
+h1:hover:first-letter{
+ color: #4FC3F7;   
+}
+
+ul{
+    list-style-type: none;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.done::before{
+    content: url(./Lev1_3_css-einführung_pseudo-element/check.png);
+}
+
+.active{
+    background-color: #a1cbdf;
+}
+
+.active::before{
+    content: url(./Lev1_3_css-einführung_pseudo-element/doing.png);
+}
+.open{
+    text-decoration: underline;
+}
+
+.open::before{
+    content: url(./Lev1_3_css-einführung_pseudo-element/no.png);
+}
+
+.gym::after{
+    content: url(./Lev1_3_css-einführung_pseudo-element/gym.png);
+}
+
+.bill::after{
+    content: url(./Lev1_3_css-einführung_pseudo-element/bill.png);
+}
+
+.george::after{
+    content: url(./Lev1_3_css-einführung_pseudo-element/dance.png);
+}
+
+.egg:after{
+    content: url(./Lev1_3_css-einführung_pseudo-element/eat.png);
+}
+
+.book:after{
+    content: url(./Lev1_3_css-einführung_pseudo-element/book.png);
+}
+
+.office:after{
+    content: url(./Lev1_3_css-einführung_pseudo-element/organize.png);
+}

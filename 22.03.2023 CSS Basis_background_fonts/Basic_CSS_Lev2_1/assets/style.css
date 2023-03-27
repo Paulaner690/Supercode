@@ -1,0 +1,11 @@
+section{
+    background-image: url(./gradient_bg_vertical.png);
+   background-repeat: repeat-y;
+}
+
+article{
+    background: url(./370-200x300.jpg) no-repeat center;
+    background-position: right;
+    background-size: contain;
+
+}
