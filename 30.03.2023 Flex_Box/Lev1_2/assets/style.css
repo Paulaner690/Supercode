@@ -1,0 +1,25 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://images.unsplash.com/photo-1680122575933-d6e81ac79d7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1648&q=80)no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+section{
+    padding: 0 30px;
+background-color: rgba(0, 0, 0, 0.621);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav{
+    display: flex;
+    column-gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

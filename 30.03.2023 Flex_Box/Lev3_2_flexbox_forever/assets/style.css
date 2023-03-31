@@ -1,0 +1,152 @@
+@font-face {
+    font-family: lato;
+    src: url(./Lato-Regular.ttf);
+}
+
+:root{
+    --text-color: #222121;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "lato", Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+
+/* -----------------header---------------------- */
+nav{
+    margin: 0 15rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: baseline;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+
+header img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo{
+    font-size: 3rem;
+    color: var(--text-color);
+    display: flex;
+    align-items: baseline;
+    margin-right: 4rem;
+}
+
+header a{
+text-decoration: none;
+color: rgba(0,0,0,.8);
+font-size: 2rem;
+padding: 0 1.6rem;
+}
+
+article{
+    width:65vw;
+    display: flex;
+    justify-content: space-between;
+}
+/* ------------------main----------------------- */
+main{
+    background-color: #D9E8E5;
+    padding: 10rem;
+    min-height: 100vh;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: rgba(0,0,0,.8);
+    margin: 0 0 2vw 3rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.b1{
+background: url(./Lev3_2_css-vertiefung_flexbox_forever/ring001.png) no-repeat center;
+background-size: cover;
+ width: 400px;
+ height: 300px;
+ display: flex;
+justify-content: end;
+align-items: flex-end;
+border-radius: 0.5rem;
+padding: 0 2rem 1rem 0 ;
+}
+
+.b2{
+background: url(./Lev3_2_css-vertiefung_flexbox_forever/ring002.png) no-repeat center;
+background-size: cover;
+ width: 400px;
+ height: 300px;
+ display: flex;
+justify-content: end;
+align-items: flex-end;
+border-radius: 0.5rem;
+padding: 0 2rem 1rem 0 ;
+}
+
+.b3{
+background: url(./Lev3_2_css-vertiefung_flexbox_forever/ring003.png) no-repeat center;
+background-size: cover;
+ width: 400px;
+ height: 300px;
+ display: flex;
+justify-content: end;
+align-items: flex-end;
+border-radius: 0.5rem;
+padding: 0 2rem 1rem 0 ;
+}
+
+.b4{
+background: url(./Lev3_2_css-vertiefung_flexbox_forever/ring004.png) no-repeat center;
+background-size: cover;
+ width: 400px;
+ height: 300px;
+ display: flex;
+justify-content: end;
+align-items: flex-end;
+border-radius: 0.5rem;
+padding: 0 2rem 1rem 0 ;
+}
+
+.b5{
+background: url(./Lev3_2_css-vertiefung_flexbox_forever/ring005.png) no-repeat center;
+background-size: cover;
+ width: 400px;
+ height: 300px;
+ display: flex;
+justify-content: end;
+align-items: flex-end;
+border-radius: 0.5rem;
+padding: 0 2rem 1rem 0 ;
+}
+
+.b6{
+background: url(./Lev3_2_css-vertiefung_flexbox_forever/ring006.png) no-repeat center;
+background-size: cover;
+ width: 400px;
+ height: 300px;
+ display: flex;
+justify-content: end;
+align-items: flex-end;
+border-radius: 0.5rem;
+padding: 0 2rem 1rem 0 ;
+}

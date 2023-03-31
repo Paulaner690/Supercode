@@ -1,0 +1,42 @@
+@font-face {
+    font-family: raleway;
+    src: url(./Raleway-VariableFont_wght.ttf);
+}
+
+header{
+    font-family: "raleway";
+    height: 76px;
+    border: 1px solid #333;
+}
+
+nav{
+    margin: 13px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: #666;
+    font-size: 30px;
+}
+
+.logo:hover{
+    color: #333;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #337ab7;
+}

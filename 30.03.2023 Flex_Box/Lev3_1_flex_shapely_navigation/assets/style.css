@@ -1,0 +1,110 @@
+@font-face {
+    font-family: raleway;
+    src: url(./Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "raleway", Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+/* -------------------header------------------- */
+header{
+    height: 76px;
+    padding: 20px 0;
+}
+
+nav{
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 1.4rem;
+}
+
+.logo{
+    color: #666;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.logo:hover{
+    color: #333;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #337ab7;
+}
+
+
+/* ----------------first-page------------------- */
+.first-page{
+    background: url(./Meer.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+    word-spacing: 0.1rem;
+}
+
+.first-page h1{
+    margin: 0 0 24px 0;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.first-page p{
+    margin: 0 0 24px 0;
+}
+
+.button{
+display: flex;
+column-gap: 10px;
+}
+
+.readmore{
+    background-color: #745cf9;
+    color: white;
+    padding: 13px 26px;
+    letter-spacing: 0.1rem;
+}
+
+.readmore:hover{
+    background-color: #5234f9cd;
+    color: white;
+}
+
+.download{
+color: white;
+border: 2px solid white;
+padding: 13px 26px;
+letter-spacing: 0.1rem;
+}
+
+.download:hover{
+    color: black;
+    background-color: white;
+}
