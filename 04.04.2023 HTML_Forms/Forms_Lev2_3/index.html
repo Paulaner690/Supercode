@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Forms 2_3</title>
+</head>
+<body>
+    <form>
+       <fieldset>
+         <legend>Register form</legend>
+         <label class="space-label" for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name">
+
+        <label class="space-label" for="surname">Surname</label>
+        <input type="text" name="surname" id="surname" placeholder="Surname">
+
+        <label class="space-label" for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+
+            <label class="space-label" for="gender">Gender</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        
+
+        <label class="space-label" for="picture">Picture</label>
+        <input type="file" name="file" id="file">
+
+        <label class="space-label" for="country">Country</label>
+        <select name="country" id="country">
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+        </select>
+
+        <label class="space-label" for="language">Preferred languages</label>
+        <select name="language" id="language">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JS</option>
+            <option value="react">React</option>
+        </select>
+
+        <label class="space-label" for="activity">Field of activity</label>
+        <input type="checkbox" name="activity" id="IT">
+        <label for="IT">IT</label>
+        <input type="checkbox" name="activity" id="design">
+        <label for="design">Design</label>
+        <input type="checkbox" name="activity" id="other">
+        <label for="other">Other</label>
+        <br>
+        <div class="btn">
+            <input type="submit" name="send" id="send" value="Send">
+            <input type="button" name="cancel" id="cancel" value="Cancel">
+        </div>
+    </fieldset> 
+</form>
+</body>
+</html>

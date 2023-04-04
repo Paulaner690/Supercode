@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    margin: 20px;
+    width: 90vw;
+    height: 50vh;
+}
+
+input{
+    margin: 6px 3px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+.space-label{
+    display: inline-block;
+    min-width: 250px;
+}
+
+select{
+    margin: 8px 3px;
+}
+.btn{
+    margin: 8px;
+}

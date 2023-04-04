@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 350px;
+    height: 450px;
+    margin: 40px;
+    color: white;
+    background-color: rgb(24, 23, 23);
+}
+
+input{
+    margin: 10px 0 10px 10px;
+    border: 1px solid white;
+    background-color: rgb(24, 23, 23);
+    padding: 6px;
+}
+
+#email, #password{
+    width: 325px;
+}
+
+#password{
+    margin-bottom: 30px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+.head a{
+    width: 165px;
+    color: white;
+    text-decoration: none;
+    
+    padding: 20px 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login{
+  background-color: green;  
+}
+
+.head a:hover{
+    background-color: yellowgreen;
+}
+
+.head a:active{
+    background-color: pink;
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+}
+
+.forgot{
+    color: green;
+    display: flex;
+    justify-content: end;
+    margin: 21px 10px 10px 0;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: 20px;
+    font-size: 20px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    width: 330px;
+}

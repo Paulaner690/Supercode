@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 90vw;
+    margin: 20px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+input{
+    margin: 5px 0;
+}
