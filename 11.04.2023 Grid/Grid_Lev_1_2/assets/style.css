@@ -1,0 +1,35 @@
+div{
+    height: 40px;
+    border-radius: 10px;
+}
+
+.aufgabe1{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.red{
+    background-color: red;
+    grid-column: 1 / 3;
+}
+
+.blue{
+    background-color: blue;
+    grid-column: 3 / 5;
+}
+
+.green{
+    background-color: green;
+    grid-column: 1 / 2;
+}
+
+.purple{
+    background-color: purple;
+    grid-column: 2 / 5;
+}
+
+.yellow{
+    background-color: yellow;
+    grid-column: 1 / 5;
+}

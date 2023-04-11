@@ -1,0 +1,179 @@
+@font-face {
+    font-family: cormorant;
+    src: url(./Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+}
+
+@font-face {
+    font-family: italic;
+    src: url(./Cormorant_Garamond/CormorantGaramond-Italic.ttf);
+}
+
+/* ---------------------general styles-------------------------- */
+:root{
+    --background-color: rgb(233, 233, 224);
+    --text-color: #333;
+}
+
+html{
+    font-family: "cormorant", Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-color: var(--background-color);
+    color: var(--text-color)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #747474;
+    font-size: 2rem;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-family: "bold", Arial, Helvetica, sans-serif;
+    margin: 2rem 0;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    font-family: "bold" ,Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 2.2rem;
+    font-family: "bold", Arial, Helvetica, sans-serif;
+}
+
+
+p{
+    font-size: 1.5rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* ------------header---------------- */
+header{
+    width: 100vw;
+}
+
+/* -------------nav------------------ */
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px double black;
+    border-bottom: 3px double black;
+    margin: 0 40px 2rem 40px;
+    padding: 2px 0;
+}
+
+/* -------------main----------------- */
+main{
+    display: flex;
+}
+
+.articles{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-left: 40px;
+}
+
+article{
+    width: 25rem;
+}
+
+h2{
+    grid-column: 1 / 4;
+}
+
+.cookware{
+    grid-column: 1 / 2;
+}
+
+.microwave{
+    grid-column: 2 / 3;
+}
+
+.knife{
+    grid-column: 1 / 2;
+}
+
+.fires{
+    grid-column: 2 / 3;
+}
+
+.contact{
+    grid-column: 1 / 2;
+}
+
+.Pathogens{
+    grid-column: 2 / 3;
+}
+
+.kitchen-img{
+    grid-column: 3 / 4;
+    grid-row: 2 / 5;
+    width: 45rem;
+    height: 70vh;
+}
+
+.kitchen-img p{
+    font-family: "italic";
+}
+
+.werbung{
+    display: grid;
+    gap: 10px;
+    height: 75vh;
+    margin-right: 40px;
+}
+section{
+    height: 200px;
+    width: 200px;
+    border: 3px double var(--text-color);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.sponsors{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: center;
+    border: none;
+    height: auto;
+    margin-top: -25px;
+}
+
+.add{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.add p{
+    font-size: 4.5rem;
+    font-family: "bold", Arial, Helvetica, sans-serif;
+}
+
+.needed{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.ikea{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    filter: grayscale(100%);
+}
