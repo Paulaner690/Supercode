@@ -1,0 +1,33 @@
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 300px;
+    
+}
+
+.box div:hover{
+    animation: shadow 2s ease-in-out infinite;
+}
+
+@keyframes shadow{
+    from{
+        box-shadow:0px 0px 15px 20px #ffffff8a;
+    }
+
+    to{
+        box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, 0px 0px 0px 20px rgba(255,255,255,0);;
+    }
+}

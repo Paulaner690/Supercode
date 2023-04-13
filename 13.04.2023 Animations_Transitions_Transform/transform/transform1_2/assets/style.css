@@ -1,0 +1,40 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+div{
+    background-color: rgb(83, 174, 83);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.translate:hover{
+    transform: translate(30px, 30px);
+}
+
+.translateX:hover{
+    transform: translateX(30px);
+}
+
+.translateY:hover{
+    transform: translateY(30px);
+}
+
+.rotate:hover{
+    transform: rotate(45deg);
+}
+
+.scale:hover{
+    transform: scale(1.2, 1.5);
+}
+
+.skew:hover{
+    transform: skew(30deg);
+}

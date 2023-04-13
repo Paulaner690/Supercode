@@ -1,0 +1,19 @@
+main {
+margin: 40px;
+}
+
+.animation{
+  height: 50px;
+  width: 400px;
+}
+
+.animation div {
+  background-color: rgb(204, 15, 113);
+  height: 50px;
+  width: 20px;
+  transition: all 2s;
+}
+
+.animation div:hover{
+  width: 100%;
+}

@@ -1,0 +1,50 @@
+.animation{
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.animation div{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.animation div:nth-last-of-type(1){
+    animation: meine-animation 4s 1s ease-in-out 3 normal forwards;
+    position: absolute;
+}
+.animation div:nth-last-of-type(2){
+    animation: meine-animation 4s 2s ease-in-out 3 normal;
+    position: absolute;
+}
+.animation div:nth-last-of-type(3){
+    animation: meine-animation 4s 3s ease-in-out 3 normal;
+    position: absolute;
+}
+.animation div:nth-last-of-type(4){
+    animation: meine-animation 4s 4s ease-in-out 3 normal;
+    position: absolute;
+}
+
+@keyframes meine-animation {
+    0%, 100% {
+      background-color: red;
+    }
+  
+    25% {
+      background-color: yellow;
+      transform: translateX(400px);
+    }
+  
+    50% {
+      background-color: yellowgreen;
+      transform: translate(400px, 400px);
+    }
+  
+    75% {
+      background-color: blue;
+      transform: translateY(400px);
+    }
+  }
+  
