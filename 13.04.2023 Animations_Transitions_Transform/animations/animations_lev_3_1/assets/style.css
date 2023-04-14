@@ -8,23 +8,20 @@
     height: 80px;
     width: 80px;
     border-radius: 40px;
+    position: absolute;
 }
 
 .animation div:nth-last-of-type(1){
     animation: meine-animation 4s 1s ease-in-out 3 normal forwards;
-    position: absolute;
 }
 .animation div:nth-last-of-type(2){
     animation: meine-animation 4s 2s ease-in-out 3 normal;
-    position: absolute;
 }
 .animation div:nth-last-of-type(3){
     animation: meine-animation 4s 3s ease-in-out 3 normal;
-    position: absolute;
 }
 .animation div:nth-last-of-type(4){
     animation: meine-animation 4s 4s ease-in-out 3 normal;
-    position: absolute;
 }
 
 @keyframes meine-animation {
