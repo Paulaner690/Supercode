@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Git Cheat Sheet</title>
+</head>
+<body>
+    <header>
+        <div>
+          <h2>GitHub</h2>
+         <h1>GIT CHEAT SHEET</h1>  
+        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/480px-Octicons-mark-github.svg.png" alt="logo">
+    </header>
+    <main>
+        <section class="installation">
+            <h3>INSTALLATION</h3>
+            <h5>First of all:</h5>
+            <article>
+                <div>
+                    <h4>GitHub for Windows</h4>
+                    <a href="https://windows.github.com">https://windows.github.com</a>
+                </div>
+                <div>
+                    <h4>GitHub for Mac</h4>
+                    <a href="https://mac.github.com">https://mac.github.com</a>
+                </div>
+            </article>
+        </section>
+        <section class="grid">
+            <section class="setup">
+                <h3>SETUP</h3>
+                <h5>Configuring user information used across all local repositories</h5>
+                <div>
+                    <h4>git config --global user.name “[firstname lastname]”</h4>
+                    <p>set a name that is identifiable for credit when review version history</p>
+                    <h4>git config --global user.email “[valid-email]”</h4>
+                    <p>set an email address that will be associated with each history marker</p>
+                    <h4>git config --global color.ui auto</h4>
+                    <p>set automatic command line coloring for Git for easy review</p>
+                </div>
+            </section>
+            <section class="init">
+                <h3>SETUP & INIT</h3>
+                <h5>Configuring user information, initializing and cloning repositories</h5>
+                <div>
+                    <h4>git init</h4>
+                    <p>initialize an existing directory as a Git repository</p>
+                    <h4>git clone [url]</h4>
+                    <p>retrieve an entire repository from a hosted location via URL</p>
+                </div>
+            </section>
+            <section class="stage">
+                <h3>STAGE & SNAPSHOT</h3>
+                <h5>Working with snapshots and the Git staging area</h5>
+                <div>
+                    <h4>git status</h4>
+                    <p>show modified files in working directory, staged for your next commit</p>
+                    <h4>git add [file]</h4>
+                    <p>add a file as it looks now to your next commit (stage)</p>
+                    <h4>git reset [file]</h4>
+                    <p>unstage a file while retaining the changes in working directory</p>
+                    <h4>git diff</h4>
+                    <p>diff of what is changed but not staged</p>
+                    <h4>git diff --staged</h4>
+                    <p>diff of what is staged but not yet committed</p>
+                    <h4>git commit -m “[descriptive message]”</h4>
+                    <p>commit your staged content as a new commit snapshot</p>
+                </div>
+            </section>
+            <section class="branch">
+                <h3>BRANCH & MERGE</h3>
+                <h5>Isolating work in branches, changing context, and integrating changes</h5>
+                <div>
+                    <h4>git branch</h4>
+                    <p>list your branches. a * will appear next to the currently active branch</p>
+                    <h4>git branch [branch-name]</h4>
+                    <p>create a new branch at the current commit</p>
+                    <h4>git checkout</h4>
+                    <p>switch to another branch and check it out into your working directory</p>
+                    <h4>git merge [branch]</h4>
+                    <p>merge the specified branch's history into the current one</p>
+                    <h4>git log</h4>
+                    <p>show all commits in the current branch's history</p>
+                </div>
+            </section>
+            <section class="inspect">
+                <h3>INSPECT & COMPARE</h3>
+                <h5>Examining logs, diffs and object information</h5>
+                <div>
+                    <h4>git log</h4>
+                    <p>show the commit history for the currently active branch</p>
+                    <h4>git log branchB..branchA</h4>
+                    <p>show the commits on branchA that are not on branchB</p>
+                    <h4>git log --follow [file]</h4>
+                    <p>show the commits that changed file, even across renames</p>
+                    <h4>git diff branchB...branchA</h4>
+                    <p>show the diff of what is in branchA that is not in branchB</p>
+                    <h4>git show [SHA]</h4>
+                    <p>show any object in Git in human-readable format</p>
+                </div>
+            </section>
+            <section class="update">
+                <h3>SHARE & UPDATE</h3>
+                <h5>Retrieving updates from another repository and updating local repos</h5>
+                <div>
+                    <h4>git remote add [alias] [url]</h4>
+                    <p>add a git URL as an alias</p>
+                    <h4>git fetch [alias]</h4>
+                    <p>fetch down all the branches from that Git remote</p>
+                    <h4>git merge [alias]/[branch]</h4>
+                    <p>merge a remote branch into your current branch to bring it up to date</p>
+                    <h4>git push [alias] [branch]</h4>
+                    <p>Transmit local branch commits to the remote repository branch</p>
+                    <h4>git pull</h4>
+                    <p>fetch and merge any commits from the tracking remote branch</p>
+                </div>
+            </section>
+        </section>
+        <img src="./assets/vecteezy_transferable-temporary-girl-tattoo-a-melting-smile-sick_22745259_974/vecteezy_transferable-temporary-girl-tattoo-a-melting-smile-sick_22745259.jpg" alt="smiley">
+    </main>
+    <footer>
+        <p>Made by Paulaner <img src="https://www.svgrepo.com/download/208691/daisy-flower.svg" alt="daisy-flower"></p>
+    </footer>
+</body>
+</html>
