@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin logostyle($size, $color){
+    height: $size;
+    width: $size;
+    color: $color;
+}
+
+.logos{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    figcaption{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .la-twitter{
+        @include logostyle(20px, #46C2FF)
+    }
+    .la-behance{
+        @include logostyle(20px, #1769ff)
+    }
+    .la-facebook-f{
+        @include logostyle(20px, #1877f2)
+    }
+    .la-vimeo{
+        @include logostyle(20px, #1ab7ea)
+    }
+    .la-snapchat{
+        @include logostyle(20px, #fffc00)
+    }
+    .la-airbnb{
+        @include logostyle(20px, #fd5c63)
+    }
+    .la-amazon{
+        @include logostyle(20px, #ff9900)
+    }
+    .la-android{
+        @include logostyle(20px, #a4c639)
+    }
+    .la-stack-overflow{
+        @include logostyle(20px, #f48024)
+    }
+    .la-ubuntu{
+        @include logostyle(20px, #77216f)
+    }
+    .la-github{
+        @include logostyle(20px, #4078c0)
+    }
+    .la-js-square{
+        @include logostyle(20px, #f7df1e)
+    }
+}

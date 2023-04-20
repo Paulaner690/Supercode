@@ -1,0 +1,24 @@
+@mixin ballform{
+    height: 60px;
+    width: 60px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+@mixin animation{
+    animation: slideright 0.8s ease infinite alternate;
+
+    @keyframes slideright {
+        from {
+            margin-left: 0%;
+        }
+        to {
+            margin-left: 85%;
+        }
+    }
+}
+
+@mixin background ($background){
+    background-color: $background;
+}

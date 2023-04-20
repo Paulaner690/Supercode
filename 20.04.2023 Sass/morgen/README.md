@@ -1,0 +1,3 @@
+sass --watch assets/scss/main.scss assets/css/style.css
+
+sass - Syntactically awesome style sheet 

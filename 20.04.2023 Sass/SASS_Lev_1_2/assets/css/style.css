@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 6rem;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 1.5rem;
+}
+.header h1 {
+  font-size: 1rem;
+}
+.header h2 {
+  font-size: 1rem;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  background-color: rgba(0, 0, 255, 0.514);
+}
+
+a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.main .section_text {
+  margin: 1rem;
+}
+.main .section_text h3 {
+  text-align: center;
+}
+.main .section_images {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 1rem;
+}
+.main .section_images img {
+  height: 12rem;
+  width: 18rem;
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.aside {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  margin: 1rem;
+}
+
+.first_aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.678);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.second_aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.678);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.third_aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.678);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fourth_aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.678);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  height: 5rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 255, 0.678);
+}
+.footer .footer_links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .section_images {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .section_text {
+    width: 70%;
+  }
+  .aside {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .aside .first_aside {
+    width: 45%;
+    margin: 0.5rem;
+  }
+  .aside .second_aside {
+    width: 45%;
+    margin: 0.5rem;
+  }
+  .aside .third_aside {
+    width: 45%;
+    margin: 0.5rem;
+  }
+  .aside .fourth_aside {
+    width: 45%;
+    margin: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

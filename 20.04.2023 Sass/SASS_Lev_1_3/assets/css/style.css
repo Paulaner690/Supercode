@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 95vw;
+  height: 40vh;
+  padding: 1rem;
+  background-color: lightpink;
+}
+.container .ball1 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 1rem;
+  animation: slideright 0.8s ease infinite alternate;
+  background-color: lightblue;
+}
+@keyframes slideright {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 85%;
+  }
+}
+.container .ball2 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 1rem;
+  animation: slideright 0.8s ease infinite alternate;
+  background-color: lightyellow;
+  animation-delay: 1s;
+}
+@keyframes slideright {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 85%;
+  }
+}
+.container .ball3 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 1rem;
+  animation: slideright 0.8s ease infinite alternate;
+  background-color: lightgreen;
+  animation-delay: 2s;
+}
+@keyframes slideright {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 85%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header, main {
+  padding: 30px;
+  color: green;
+}
+
+header {
+  color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+header h1 {
+  font-size: 5rem;
+}
+header nav {
+  background: red;
+}
+header nav a {
+  margin-left: 40px;
+  text-decoration: none;
+}
+header nav a:nth-of-type(3):hover {
+  color: green;
+}
+header nav a:nth-of-type(2):hover {
+  color: white;
+}
+
+.imagegallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.imagegallery figure img {
+  width: 100%;
+}
+.imagegallery figure figcaption {
+  background: deepskyblue;
+}
+.imagegallery figure figcaption h2 {
+  font-size: 2rem;
+  color: white;
+  background: deeppink;
+  font-size: 40px;
+}
+.imagegallery figure figcaption h2:hover {
+  color: yellow;
+  cursor: pointer;
+}
+.imagegallery figure figcaption p {
+  font-size: 1rem;
+  color: white;
+  background: rgb(98, 7, 56);
+}
+
+/*# sourceMappingURL=style.css.map */
