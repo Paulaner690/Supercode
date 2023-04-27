@@ -12,6 +12,7 @@ intro3("Paula", "Hannover", 22)
 function math(nbr1, nbr2){
     console.log("Multiplikation: " + nbr1 * nbr2);
     console.log("Division: " + nbr1 / nbr2);
+
 }
 math(10, 2);
 math(30, 20);
