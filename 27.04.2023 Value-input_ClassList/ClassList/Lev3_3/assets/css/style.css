@@ -1,0 +1,12 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px 0;
+}
+input{
+    margin: 20px;
+}
