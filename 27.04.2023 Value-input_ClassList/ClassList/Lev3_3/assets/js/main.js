@@ -8,10 +8,11 @@ let red = 0;
 let green = 0;
 let blue = 0;
 
-function changeBackground(){
-    red = redRange.value;
-    green = greenRange.value;
-    blue = blueRange.value;
+function changeBackground() {
+  red = redRange;
+  green = greenRange;
+  blue = blueRange;
 
-    body.style.backgroundColor = "rgba(rgba("+red+","+green+","+blue+",1)";
+  body.style.backgroundColor =
+    "rgba(rgba(" + red + "," + green + "," + blue + ",1)";
 }

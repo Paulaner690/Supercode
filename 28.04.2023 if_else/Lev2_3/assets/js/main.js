@@ -1,9 +1,11 @@
-function difference(){
-    let number = document.querySelector("#num").value;
+function difference() {
+  let number = document.querySelector("#num").value;
 
-    let dif = number - 27;
+  let dif = number - 27;
 
-    if(number > 27){
-        console.log("multiplizier " + dif * 2);
-    }
+  if (number > 27) {
+    console.log("multiplizier " + dif * 2);
+  } else {
+    console.log(dif);
+  }
 }

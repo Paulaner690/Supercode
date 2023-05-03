@@ -1,18 +1,25 @@
-function intro2(paramName){
-    let varName = "SuperCoder";
-    console.log("Hi " + varName + ". Mein Name ist " + paramName + ".");
+function intro2(paramName) {
+  let varName = "SuperCoder";
+  console.log("Hi " + varName + ". Mein Name ist " + paramName + ".");
 }
 intro2("Paula");
 
-function intro3(name, stadt, alter){
-    console.log("Hallo, mein Name ist " + name + " Ich bin " + alter + " Jahre alt. Ich komme aus " + stadt + ".")
+function intro3(name, stadt, alter) {
+  console.log(
+    "Hallo, mein Name ist " +
+      name +
+      " Ich bin " +
+      alter +
+      " Jahre alt. Ich komme aus " +
+      stadt +
+      "."
+  );
 }
-intro3("Paula", "Hannover", 22)
+intro3("Paula", "Hannover", 22);
 
-function math(nbr1, nbr2){
-    console.log("Multiplikation: " + nbr1 * nbr2);
-    console.log("Division: " + nbr1 / nbr2);
-
+function math(nbr1, nbr2) {
+  console.log("Multiplikation: " + nbr1 * nbr2);
+  console.log("Division: " + nbr1 / nbr2);
 }
 math(10, 2);
 math(30, 20);
