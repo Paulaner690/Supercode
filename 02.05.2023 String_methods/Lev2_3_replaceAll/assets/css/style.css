@@ -1,0 +1,15 @@
+/* Variante 1 */
+.highlight {
+    background-color: yellow;
+    }
+
+/* Variante 2 */
+span {
+    background-color: yellow;
+    }
+    
+form {
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    }
