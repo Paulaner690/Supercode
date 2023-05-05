@@ -1,18 +1,8 @@
-const body = document.querySelector("body");
+const changeBackground = () => {
+  const red = document.querySelector("#red").value;
+  const green = document.querySelector("#green").value;
+  const blue = document.querySelector("#blue").value;
 
-const redRange = Number(document.getElementById("red").value);
-const greenRange = Number(document.getElementById("green").value);
-const blueRange = Number(document.getElementById("blue").value);
-
-let red = 0;
-let green = 0;
-let blue = 0;
-
-function changeBackground() {
-  red = redRange;
-  green = greenRange;
-  blue = blueRange;
-
-  body.style.backgroundColor =
-    "rgba(rgba(" + red + "," + green + "," + blue + ",1)";
-}
+  document.body.style.backgroundColor =
+    "rgb(" + red + "," + green + "," + blue + ")";
+};
