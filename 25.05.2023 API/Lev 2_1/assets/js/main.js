@@ -2,6 +2,7 @@
 fetch("https://picsum.photos/v2/list")
   .then((res) => res.json()) //   KONVERTIEREN IN JSON
   .then((data) => {
+    console.log(typeof data);
     // ! LOOP
     data.forEach((element) => {
       // KONSTANTEN FÜR DIE ELEMENTE IM FIGURE TAG:
