@@ -1,0 +1,29 @@
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    padding: 4rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+button{
+    background-color: rgb(169, 161, 220);
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover{
+    cursor: pointer;
+}
