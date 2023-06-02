@@ -1,0 +1,16 @@
+h1{
+  text-align: center;
+}
+
+.movies{
+  background: linear-gradient(120deg, rgba(202, 189, 191, 0.95), rgba(242, 255, 0, 0.797));
+  border-radius: 5px;
+  text-align: center;
+}
+
+.movieArt{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+  margin: 1rem;
+}
