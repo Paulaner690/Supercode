@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+text-align: center;
+}
+   
+   nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   
+   .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+   }
+   
+   .grid-item {
+    background-color: lightgray;
+    padding: 40px;
+   }
+   
